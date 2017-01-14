@@ -1,7 +1,7 @@
 {
-  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36",
   "yawf": "Yet Another Weibo Filter",
-  "ver": "3.7.428",
+  "ver": "3.7.434",
   "gm": "Violentmonkey2.5.3",
   "conf": {
     "weibo.tool.load_weibo_by_search": false,
@@ -24,7 +24,9 @@
     "weibo.other.desktop_notification.ntypes": false,
     "weibo.other.desktop_notification": false,
     "weibo.filters.keyword.whitelist": [],
-    "weibo.filters.keyword.blacklist": [],
+    "weibo.filters.keyword.blacklist": [
+      "快来一起围观~"
+    ],
     "weibo.filters.keyword.foldlist": [],
     "weibo.filters.regexp.whitelist": [],
     "weibo.filters.regexp.blacklist": [],
@@ -93,7 +95,7 @@
     "weibo.other.same_account": false,
     "weibo.other.same_forward.number": 2,
     "weibo.other.same_forward.action": "fold",
-    "weibo.other.same_forward": false,
+    "weibo.other.same_forward": true,
     "weibo.filters.ckeyword.whitelist": [],
     "weibo.filters.ckeyword.blacklist": [],
     "weibo.filters.cregexp.whitelist": [],
@@ -185,7 +187,7 @@
     "weibo.layoutHideWeiboLike": false,
     "weibo.layoutHideWeiboLikeComment": false,
     "weibo.layoutHideWeiboForward": false,
-    "weibo.layoutHideWeiboFavourite": true,
+    "weibo.layoutHideWeiboFavourite": false,
     "weibo.layoutHideWeiboPromoteOther": true,
     "weibo.layoutHideWeiboReport": true,
     "weibo.layoutHideWeiboShield": true,
@@ -239,9 +241,7 @@
     "weibo.tool.filte_right_topic": false,
     "weibo.tool.filte_right_topic_count.number": 200,
     "weibo.tool.filte_right_topic_count": false,
-    "weibo.tool.right_user_list": [
-      "2323195050"
-    ],
+    "weibo.tool.right_user_list": [],
     "weibo.tool.right_user_list_notice": false,
     "weibo.tool.hide_nav_bar": true,
     "weibo.tool.fixedLeft": true,
@@ -258,7 +258,7 @@
     "weibo.tool.viewOriginal.open": "image",
     "weibo.tool.viewOriginal.direct": false,
     "weibo.tool.viewOriginal": true,
-    "weibo.tool.noTagDialog": false,
+    "weibo.tool.noTagDialog": true,
     "weibo.tool.html5Video": true,
     "weibo.tool.replace_link": false,
     "weibo.tool.replace_image_emoji": false,
@@ -350,6 +350,8 @@
     "weibo.tool.color_override": false,
     "weibo.tool.userstyle": "",
     "script.other.auto_complete": true,
-    "weibo.other.comment_show_all": false
+    "weibo.other.comment_show_all": false,
+    "weibo.other.wenda": false,
+    "weibo.layoutHideNavNew": false
   }
 }
