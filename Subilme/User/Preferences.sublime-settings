@@ -1,8 +1,13 @@
 {
+	"auto_complete_commit_on_tab": true,
+	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
 	"font_face": "Consolas Italic",
 	"font_size": 14,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"soda_folder_icons": true,
+	"tab_size": 2,
+	"theme": "Soda Light 3.sublime-theme"
 }
