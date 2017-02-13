@@ -7,8 +7,11 @@
 	[
 		"AdvancedNewFile",
 		"Babel",
+		"BracketHighlighter",
+		"ConvertToUTF8",
 		"Emmet",
+		"Material Theme",
 		"Package Control",
-		"Theme - Soda"
+		"SideBarEnhancements"
 	]
 }

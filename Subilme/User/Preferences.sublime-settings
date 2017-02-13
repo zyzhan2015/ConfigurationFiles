@@ -1,13 +1,24 @@
 {
-	"auto_complete_commit_on_tab": true,
-	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
+	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
+	"dpi_scale": 1.0,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.class",
+		"*.gitignore"
+	],
 	"font_face": "Consolas Italic",
 	"font_size": 14,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"soda_folder_icons": true,
+	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_tags": false,
 	"tab_size": 2,
-	"theme": "Soda Light 3.sublime-theme"
+	"theme": "Material-Theme.sublime-theme"
 }

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+import edu.princeton.cs.algs4.${1:*};
+${2}
+]]></content>
+	<tabTrigger>algs4</tabTrigger>
+	<scope>source.java</scope>
+</snippet>
